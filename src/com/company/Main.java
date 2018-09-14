@@ -3,7 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("My name is");
-        System.out.println("Daniel Borbas");
+        String mynamestr = new String ("My name is");
+        String myname = new String ("Daniel Borbas");
+        System.out.println(mynamestr);
+        System.out.println(myname);
     }
 }
