@@ -1,5 +1,7 @@
-public class nowhitespace {
+public class nowhitespace { ;
+
     public static void main(String[] args) {
-        System.out.println("Mynameisdanielborbas");
+        String myname = new String ("Mynameisdanielborbas");
+        System.out.println(myname);
     }
 }
