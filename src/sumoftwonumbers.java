@@ -4,6 +4,6 @@ public class sumoftwonumbers {
 
         int a = 15;
         int b = 25;
-        System.out.println(a+b);
+        System.out.print(a+b);
     }
 }
