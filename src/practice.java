@@ -16,8 +16,6 @@ public class practice {
         System.out.println("Please enter a float");
         float d= sc.nextFloat();
 
-
-
         double area1 = a+b*2;
         float area2 = c+d*2;
         System.out.println("The result is: " + area1 + area2); //taglalap terulete
