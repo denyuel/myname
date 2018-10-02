@@ -22,9 +22,15 @@ public class arrays {
                     {"Cat ", "Bird ", "Doggie "},
                     {"Micko ", "Alfie ", "Rob "},
             };
-            System.out.println(petnames[0][0] + petnames[1][0] + petnames[2][0]);
-            System.out.println(petnames[0][1] + petnames[1][1] + petnames[2][1]);
-            System.out.println(petnames[0][2] + petnames[1][2] + petnames[2][2]);
+            System.out.println("Name: " + petnames[0][0] + petnames[1][0] + petnames[2][0]);
+            System.out.println("Name: " + petnames[0][1] + petnames[1][1] + petnames[2][1]);
+            System.out.println("Name: " + petnames[0][2] + petnames[1][2] + petnames[2][2]);
+            System.out.println("Name: " + petnames[0][0] + petnames[1][0] + petnames[2][1]);
+            System.out.println("The lenght of the first block: " + petnames[0].length);
+            System.out.println("The lenght of the first block: " + petnames[1].length);
+            System.out.println("The lenght of the first block: " + petnames[2].length);
+            System.out.println(floatArrays.length);
+            System.out.println(byteArrays.length);
             System.out.println(byteArrays[0]);
             System.out.println(floatArrays[0] + floatArrays[1]);
             System.out.println(a[0]);
